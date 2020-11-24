@@ -1,0 +1,10 @@
+diff a/index.html b/index.html	(rejected hunks)
+@@ -5,7 +5,7 @@
+     <meta charset="UTF-8">
+     <title>GitHub</title>
+ 
+-    <meta name="author" content="deeperstill">
++    <meta name="author" content="YOODONGHYUK (deeperstill)">
+     <meta name="description" content="GitHub is where people build software. More than 31 million people use GitHub to discover, fork, and contribute to over 100 million projects.">
+     <!-- 환경에 따라 달리 설정 -->
+     <!-- width=device-width 디바이스의 최대폭을 사용한다 -->
