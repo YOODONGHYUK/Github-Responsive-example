@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>GitHub</title>
+
+    <meta name="author" content="deeperstill">
+    <meta name="description" content="GitHub is where people build software. More than 31 million people use GitHub to discover, fork, and contribute to over 100 million projects.">
+    <!-- 환경에 따라 달리 설정 -->
+    <!-- width=device-width 디바이스의 최대폭을 사용한다 -->
+    <!-- initial-scale=1 초기화면배율=1 기본(확대,축소 없음) -->
+    <!-- user-scalable=no 확대, 축소 불허 -->
+    <!-- maximum-scale=1, minimum-scale=1 최대,최소 확대 값1, 확대축소 이중 봉쇄 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1, minimum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- http://ogp.me/ -->
+    <!-- og=Open Graph 외부에 제공할 정보 정의, 페이스북에서 많이 사용 -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="GitHub">
+    <meta property="og:title" content="Build software better, together">
+    <meta property="og:description"
+        content="GitHub clone coding / GitHub is where people build software. More than 31 million people use GitHub to discover, fork, and contribute to over 100 million projects.">
+    <meta property="og:image" content="img/logo__github.png">
+    <meta property="og:url" content="https://github.com">
+
+    <!-- https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started.html -->
+    <!-- Twitter Card 트위터에서 많이 사용 -->
+    <meta property="twitter:card" content="summary">
+    <meta property="twitter:site" content="GitHub">
+    <meta property="twitter:title" content="Build software better, together">
+    <meta property="twitter:description"
+        content="GitHub clone coding / GitHub is where people build software. More than 31 million people use GitHub to discover, fork, and contribute to over 100 million projects.">
+    <meta property="twitter:image" content="img/logo__github.png">
+    <meta property="twitter:url" content="https://github.com">
+
+    <!-- 인터넷 익스플로러에 적용, ico 사용 권장 -->
+    <!-- 루트에 ico파일이 하나라면 알아서 적용, 아닐시 밑처럼 지정해줘야함 -->
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link rel="icon" href="favicon.png">
+    <!-- 스마트폰에서 적용, 안드로이드 동일 -->
+    <link rel="apple-touch-icon" href="favicon.png">
+    <!-- 매우중요! 초기화는 개발자가 정하는 양식인 main.css보다 먼저와야 한다. -->
+    <!-- 1. 루트에 파일을 css파일 추가, link로 사용하는 방법 -->
+    <!-- <link rel="stylesheet" href="css/reset.css"> -->
+    <!-- 2. reset.css cdn웹에서 reset.css 불러와 사용 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" media="(max-width: 1024px)" href="./css/main-medium.css">
+    <link rel="stylesheet" media="(max-width: 768px)" href="./css/main-small.css">
+
+    <script defer src="main.js"></script>
+</head>
+
+<body>
+   <!-- body태그는 전체적인 구조범위를 나타내는 
+    태그로 css에서 속성을 가지고 있는 것은 
+    별로 좋지 않으므로 body대신 사용할 
+    body__container를 선언 -->
+    <!-- 
+    BEM : CSS작명규칙 
+        - 일반적인 작명
+        __ ~의 일부분
+        -- ~의 상태 
+    -->
+    <div class="body__container">
+        <!-- HEADER -->
+        <header class="section">
+            <div class="inner clearfix">
+                <div class="menu-group float--right">
+                    <div class="logo">
+                        <a href="#">GitHub</a>
+                    </div>
+
+                    <ul class="main-menu toggle">
+                        <li><a href="#">Personal</a></li>
+                        <li><a href="#">Open source</a></li>
+                        <li><a href="#">Business</a></li>
+                        <li><a href="#">Explore</a></li>
+                    </ul>
+                </div>
+
+                <div class="sign-group float--right toggle">
+                    <div class="btn-group">
+                        <a href="#" class="btn sign-in">Sign in</a>
+                        <a href="#" class="btn btn--primary sign-up">Sign up</a>
+                    </div>
+
+                    <form id="search-form" method="POST" action="">
+                        
+                    </form>
+                </div>
+            </div>
+        </header>
+
+    </div> 
+</body>
+
+</html>
