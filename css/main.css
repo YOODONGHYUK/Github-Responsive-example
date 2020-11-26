@@ -166,7 +166,7 @@ header .btn-group {
     display: flex;
 }
 
-header .btn-group .sing-in {
+header .btn-group .sign-in {
     margin-right: 4px;
 }
 
@@ -328,10 +328,10 @@ header .sub-menu li a:hover {
     max-width: 1200px;
 }
 
-.section--feature .tiles ul {
+/* .section--feature .tiles ul {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-}
+} */
 
 .section--feature .tiles li {
     padding: 34px 24px;
@@ -395,7 +395,7 @@ header .sub-menu li a:hover {
     box-sizing: border-box;
 }
 
-.section--pricing .card .cell1 {
+.section--pricing .card .cell {
     padding: 24px;
     display: flex;
     justify-content: center;
