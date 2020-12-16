@@ -1,4 +1,4 @@
 #clone GitHub site
 
 ## Link
-https://yoodonghyuk.github.io/Github-Responsive-example/.
+https://donghyuk-yoo.github.io/Github-Responsive-example/
